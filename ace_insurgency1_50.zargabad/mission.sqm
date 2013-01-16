@@ -1,0 +1,1180 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"CACharacters_BAF",
+		"cacharacters_e",
+		"ca_modules_functions",
+		"ca_modules_e_weather",
+		"ca_modules_clouds",
+		"caweapons_e_ammoboxes",
+		"camisc_e_wf",
+		"camisc3",
+		"takistan",
+		"cawheeled_e_hmmwv",
+		"cawheeled_d_baf",
+		"CAAir_E_AH6J",
+		"caweapons_baf",
+		"CAWheeled_E_stryker",
+		"cadata",
+		"camisc_e",
+		"zargabad",
+		"CA_Modules_Alice2",
+		"ca_missions_garbagecollector",
+		"ca_modules_silvie",
+		"cacharacters2",
+		"CACharacters_BAF",
+		"CAAir",
+		"CAAir_E_UH60M",
+		"caair_e_ch_47f",
+		"CAWheeled2_MTVR",
+		"ace_sys_playerhud",
+		"ace_main",
+		"ace_sys_slingload",
+		"ace_sys_wounds",
+		"ace_sys_nvg",
+		"ace_sys_tracking",
+		"ace_sys_aitalk",
+		"ca_modules",
+		"CAAir_BAF",
+		"CAWheeled2_MTVR"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters_e",
+		"CACharacters_BAF",
+		"cacharacters2",
+		"ca_modules_e_weather",
+		"ca_modules_clouds",
+		"ca_missions_garbagecollector",
+		"ca_modules_functions",
+		"CA_Modules_Alice2",
+		"ca_modules_silvie",
+		"ace_main",
+		"ace_sys_slingload",
+		"ace_sys_wounds",
+		"ace_sys_aitalk",
+		"ace_sys_nvg",
+		"ace_sys_playerhud",
+		"ace_sys_tracking",
+		"ca_modules",
+		"camisc_e_wf",
+		"camisc3",
+		"camisc_e",
+		"CAWheeled_E_stryker",
+		"caweapons_baf",
+		"zargabad"
+	};
+	randomSeed=8342719;
+	class Intel
+	{
+		briefingName="ACE Insurgency 1.50";
+		briefingDescription="by pogoman, Fireball, Kol9yN";
+		resistanceEast=1;
+		startWeather=0;
+		forecastWeather=0;
+		year=2011;
+		month=6;
+		day=15;
+		hour=12;
+		minute=0;
+	};
+	class Groups
+	{
+		items=22;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=5;
+				class Item0
+				{
+					position[]={0,0,0};
+					azimut=91.808899;
+					special="NONE";
+					id=0;
+					side="WEST";
+					vehicle="US_Soldier_TL_EP1";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="Hitman111";
+					init="this setGroupId [""Hitman 1 - 1 -""];";
+					description="USA Hitman 1-1-1 (Team Leader)";
+				};
+				class Item1
+				{
+					position[]={0,0,0};
+					azimut=91.808899;
+					special="NONE";
+					id=1;
+					side="WEST";
+					vehicle="US_Soldier_Medic_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Hitman112";
+					description="USA Hitman 1-1-2 (Medic)";
+				};
+				class Item2
+				{
+					position[]={0,0,0};
+					azimut=91.808899;
+					special="NONE";
+					id=2;
+					side="WEST";
+					vehicle="US_Soldier_LAT_EP1";
+					player="PLAY CDG";
+					skill=1;
+					text="Hitman113";
+					description="USA Hitman 1-1-3";
+				};
+				class Item3
+				{
+					position[]={0,0,0};
+					azimut=91.808899;
+					special="NONE";
+					id=3;
+					side="WEST";
+					vehicle="US_Soldier_EP1";
+					player="PLAY CDG";
+					skill=1;
+					text="Hitman114";
+					description="USA Hitman 1-1-4";
+				};
+				class Item4
+				{
+					position[]={0,0,0};
+					special="NONE";
+					id=25;
+					side="WEST";
+					vehicle="US_Soldier_GL_EP1";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="Hitman115";
+					description="USA Hitman 1-1-5";
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=5;
+				class Item0
+				{
+					position[]={0,0,0};
+					azimut=-21.4862;
+					special="NONE";
+					id=4;
+					side="WEST";
+					vehicle="BAF_Soldier_TL_DDPM";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="Hitman121";
+					init="this setGroupId [""Hitman 1 - 2 -""]; ";
+					description="British Hitman 1-2-1 (Team Leader)";
+				};
+				class Item1
+				{
+					position[]={0,0,0};
+					azimut=-21.4862;
+					special="NONE";
+					id=5;
+					side="WEST";
+					vehicle="BAF_Soldier_Medic_DDPM";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Hitman122";
+					description="British Hitman 1-2-2 (Medic)";
+				};
+				class Item2
+				{
+					position[]={0,0,0};
+					azimut=-21.4862;
+					special="NONE";
+					id=6;
+					side="WEST";
+					vehicle="BAF_Soldier_AT_DDPM";
+					player="PLAY CDG";
+					skill=1;
+					text="Hitman123";
+					description="British Hitman 1-2-3";
+				};
+				class Item3
+				{
+					position[]={0,0,0};
+					azimut=-21.4862;
+					special="NONE";
+					id=7;
+					side="WEST";
+					vehicle="BAF_Soldier_GL_DDPM";
+					player="PLAY CDG";
+					skill=1;
+					text="Hitman124";
+					description="British Hitman 1-2-4";
+				};
+				class Item4
+				{
+					position[]={0,0,0};
+					special="NONE";
+					id=24;
+					side="WEST";
+					vehicle="BAF_Soldier_MG_DDPM";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="Hitman125";
+					description="British Hitman 1-2-5";
+				};
+			};
+		};
+		class Item2
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=5;
+				class Item0
+				{
+					position[]={0,0,0};
+					azimut=-21.4443;
+					special="NONE";
+					id=8;
+					side="WEST";
+					vehicle="USMC_Soldier_TL";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="Hitman131";
+					init="this setGroupId [""Hitman 1 - 3 -""]; ";
+					description="USMC Hitman 1-3-1 (Team Leader)";
+				};
+				class Item1
+				{
+					position[]={0,0,0};
+					azimut=-21.4443;
+					special="NONE";
+					id=9;
+					side="WEST";
+					vehicle="USMC_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Hitman132";
+					description="USMC Hitman 1-3-2 (Medic)";
+				};
+				class Item2
+				{
+					position[]={0,0,0};
+					azimut=-21.4443;
+					special="NONE";
+					id=10;
+					side="WEST";
+					vehicle="USMC_Soldier_LAT";
+					player="PLAY CDG";
+					skill=1;
+					fuel=0.76006347;
+					text="Hitman133";
+					description="USMC Hitman 1-3-3";
+				};
+				class Item3
+				{
+					position[]={0,0,0};
+					azimut=-21.4443;
+					special="NONE";
+					id=11;
+					side="WEST";
+					vehicle="USMC_Soldier_AR";
+					player="PLAY CDG";
+					skill=1;
+					text="Hitman134";
+					description="USMC Hitman 1-3-4";
+				};
+				class Item4
+				{
+					position[]={0,0,0};
+					special="NONE";
+					id=23;
+					side="WEST";
+					vehicle="USMC_Soldier_GL";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="Hitman135";
+					description="USMC Hitman 1-3-5";
+				};
+			};
+		};
+		class Item3
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=5;
+				class Item0
+				{
+					position[]={0,0,0};
+					azimut=-20.999001;
+					special="NONE";
+					id=12;
+					side="WEST";
+					vehicle="US_Delta_Force_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="Hitman141";
+					init="this setGroupId [""Hitman 1 - 4 -""]; ";
+					description="Delta Hitman 1-4-1 (Team Leader)";
+				};
+				class Item1
+				{
+					position[]={0,0,0};
+					azimut=-20.999001;
+					special="NONE";
+					id=13;
+					side="WEST";
+					vehicle="US_Delta_Force_Medic_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Hitman142";
+					description="Delta Hitman 1-4-2 (Medic)";
+				};
+				class Item2
+				{
+					position[]={0,0,0};
+					azimut=-20.999001;
+					special="NONE";
+					id=14;
+					side="WEST";
+					vehicle="US_Delta_Force_MG_EP1";
+					player="PLAY CDG";
+					skill=1;
+					text="Hitman143";
+					description="Delta Hitman 1-4-3";
+				};
+				class Item3
+				{
+					position[]={0,0,0};
+					azimut=-20.999001;
+					special="NONE";
+					id=15;
+					side="WEST";
+					vehicle="US_Delta_Force_EP1";
+					player="PLAY CDG";
+					skill=1;
+					text="Hitman144";
+					description="Delta Hitman 1-4-4";
+				};
+				class Item4
+				{
+					position[]={0,0,0};
+					special="NONE";
+					id=22;
+					side="WEST";
+					vehicle="US_Delta_Force_Night_EP1";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="Hitman145";
+					description="Delta Hitman 1-4-5";
+				};
+			};
+		};
+		class Item4
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3433.1487,51.985191,8152.9531};
+					azimut=-183.32968;
+					id=16;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="vclSpawn1";
+				};
+			};
+		};
+		class Item5
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5047.1733,84.874008,15.253235};
+					azimut=319.67023;
+					id=17;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="vclSpawn3";
+				};
+			};
+		};
+		class Item6
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3176.0334,7.2894917,6.8134766};
+					azimut=343.14706;
+					id=18;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="vclSpawn2";
+				};
+			};
+		};
+		class Item7
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-735.82593,371.43045,793.14502};
+					id=21;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="server";
+				};
+			};
+		};
+		class Item8
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-600.13647,363.49042,950.86182};
+					id=26;
+					side="LOGIC";
+					vehicle="WeatherPostprocessManager";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					text="Colors";
+					init="this setVariable [""intensity"", 1.1]";
+				};
+			};
+		};
+		class Item9
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-602.41071,121.69762,889.39307};
+					id=27;
+					side="LOGIC";
+					vehicle="BIS_clouds_Logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item10
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={0.95320749,81.282928,-399.15479};
+					azimut=93.227798;
+					special="NONE";
+					id=32;
+					side="EAST";
+					vehicle="TK_INS_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="east1";
+				};
+			};
+		};
+		class Item11
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={0.95320749,81.282928,-399.15479};
+					azimut=93.227806;
+					special="NONE";
+					id=31;
+					side="EAST";
+					vehicle="TK_INS_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="east2";
+				};
+			};
+		};
+		class Item12
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={0.95320749,81.282928,-399.15479};
+					azimut=93.227798;
+					special="NONE";
+					id=30;
+					side="EAST";
+					vehicle="TK_INS_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="east3";
+				};
+			};
+		};
+		class Item13
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={0.95320749,81.282928,-399.15479};
+					azimut=93.227798;
+					special="NONE";
+					id=29;
+					side="EAST";
+					vehicle="TK_INS_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="east4";
+				};
+			};
+		};
+		class Item14
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-597.59009,377.19937,800.89337};
+					azimut=-180.42642;
+					special="NONE";
+					id=37;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					leader=1;
+					rank="COLONEL";
+					skill=1;
+					text="graveDigger";
+					init="this allowDamage false; doStop this";
+				};
+			};
+		};
+		class Item15
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-615.27405,372.40643,1093.0129};
+					id=41;
+					side="CIV";
+					vehicle="TK_CIV_Takistani01_EP1";
+					leader=1;
+					skill=1;
+					text="pilotController";
+					init="this allowDamage false; doStop this";
+				};
+			};
+		};
+		class Item16
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=5;
+				class Item0
+				{
+					position[]={0,0,0};
+					azimut=91.808899;
+					special="NONE";
+					id=42;
+					side="WEST";
+					vehicle="GER_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="Hitman151";
+					init="this setGroupId [""Hitman 1 - 5 -""];";
+					description="Germany Hitman 1-5-1 (Team Leader)";
+				};
+				class Item1
+				{
+					position[]={0,0,0};
+					azimut=91.808899;
+					special="NONE";
+					id=43;
+					side="WEST";
+					vehicle="GER_Soldier_Medic_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Hitman152";
+					description="Germany Hitman 1-5-2 (Medic)";
+				};
+				class Item2
+				{
+					position[]={0,0,0};
+					azimut=91.808899;
+					special="NONE";
+					id=44;
+					side="WEST";
+					vehicle="GER_Soldier_Scout_EP1";
+					player="PLAY CDG";
+					skill=1;
+					text="Hitman153";
+					description="Germany Hitman 1-5-3";
+				};
+				class Item3
+				{
+					position[]={0,0,0};
+					azimut=91.808899;
+					special="NONE";
+					id=45;
+					side="WEST";
+					vehicle="GER_Soldier_EP1";
+					player="PLAY CDG";
+					skill=1;
+					text="Hitman154";
+					description="Germany Hitman 1-5-4";
+				};
+				class Item4
+				{
+					position[]={0,0,0};
+					special="NONE";
+					id=46;
+					side="WEST";
+					vehicle="GER_Soldier_MG_EP1";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="Hitman155";
+					description="Germany Hitman 1-5-5";
+				};
+			};
+		};
+		class Item17
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=5;
+				class Item0
+				{
+					position[]={0,0,0};
+					azimut=91.808899;
+					special="NONE";
+					id=47;
+					side="WEST";
+					vehicle="FR_TL";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=1;
+					text="Hitman161";
+					init="this setGroupId [""Hitman 1 - 6 -""];";
+					description="FR Hitman 1-6-1 (Team Leader)";
+				};
+				class Item1
+				{
+					position[]={0,0,0};
+					azimut=91.808899;
+					special="NONE";
+					id=48;
+					side="WEST";
+					vehicle="FR_Corpsman";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=1;
+					text="Hitman162";
+					description="FR Hitman 1-6-2 (Medic)";
+				};
+				class Item2
+				{
+					position[]={0,0,0};
+					azimut=91.808899;
+					special="NONE";
+					id=49;
+					side="WEST";
+					vehicle="FR_AR";
+					player="PLAY CDG";
+					skill=1;
+					text="Hitman163";
+					description="FR Hitman 1-6-3";
+				};
+				class Item3
+				{
+					position[]={0,0,0};
+					azimut=91.808899;
+					special="NONE";
+					id=50;
+					side="WEST";
+					vehicle="FR_Assault_R";
+					player="PLAY CDG";
+					skill=1;
+					text="Hitman164";
+					description="FR Hitman 1-6-4";
+				};
+				class Item4
+				{
+					position[]={0,0,0};
+					special="NONE";
+					id=51;
+					side="WEST";
+					vehicle="FR_Assault_GL";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="Hitman165";
+					description="FR Hitman 1-6-5";
+				};
+			};
+		};
+		class Item18
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-662.73523,133.30823,1010.6333};
+					id=53;
+					side="LOGIC";
+					vehicle="GarbageCollector";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					init="BIS_GC setVariable [""auto"",true];";
+				};
+			};
+		};
+		class Item19
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={-723.53101,353.15918,960.0874};
+					id=19;
+					side="LOGIC";
+					vehicle="FunctionsManager";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					init="call compile preprocessFileLineNumbers ""mip\init-functions.sqf"";";
+				};
+				class Item1
+				{
+					presenceCondition="isServer && (paramsArray select 1 == 1)";
+					position[]={-722.71631,124.34575,895.06836};
+					id=52;
+					side="LOGIC";
+					vehicle="Alice2Manager";
+					lock="UNLOCKED";
+					skill=0.60000002;
+					init="call compile preprocessFileLineNumbers ""mip\init-alice2.sqf"";";
+				};
+				class Item2
+				{
+					presenceCondition="";
+					position[]={-668.41187,118.56993,858.91113};
+					id=54;
+					side="LOGIC";
+					vehicle="SilvieManager";
+					lock="UNLOCKED";
+					skill=0.60000002;
+					init="this setVariable [""vehicleInit"",{nul=[_this] execVM ""carbomb.sqf"";}];";
+				};
+			};
+		};
+		class Item20
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=7;
+				class Item0
+				{
+					position[]={-298.82642,78.551437,-0.075195313};
+					id=60;
+					side="LOGIC";
+					vehicle="ACE_Required_Logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={-199.21765,82.160866,2.1879883};
+					id=63;
+					side="LOGIC";
+					vehicle="ACE_DisableSlingload";
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={-301.09033,85.970161,-98.498047};
+					id=66;
+					side="LOGIC";
+					vehicle="ACE_Wounds_Logic";
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={-399.56717,88.035469,-1.2060547};
+					id=61;
+					side="LOGIC";
+					vehicle="ACE_AITalk_Logic";
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item4
+				{
+					position[]={-358.81812,87.175697,70.065918};
+					id=65;
+					side="LOGIC";
+					vehicle="ACE_NVG_RangeLimit_Logic";
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item5
+				{
+					position[]={-299.95831,86.123001,101.74219};
+					id=62;
+					side="LOGIC";
+					vehicle="ACE_SYS_PRespawn_Logic";
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item6
+				{
+					position[]={-241.09863,84.988594,65.541016};
+					id=64;
+					side="LOGIC";
+					vehicle="ACE_ForceGroupMarkersOff_Logic";
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item21
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-299.95831,87.456627,-200.31543};
+					id=67;
+					side="LOGIC";
+					vehicle="BIS_Effect_FilmGrain";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=14;
+		class Item0
+		{
+			position[]={63.589409,115.40209,20.193359};
+			id=20;
+			side="EMPTY";
+			vehicle="US_WarfareBVehicleServicePoint_EP1";
+			skill=0.60000002;
+			text="vehicleServicePoint";
+			init="this allowDamage false";
+		};
+		class Item1
+		{
+			position[]={63.102745,120.10785,-26.346497};
+			id=28;
+			side="EMPTY";
+			vehicle="HeliH";
+			skill=0.60000002;
+			text="helipad";
+		};
+		class Item2
+		{
+			position[]={23.59333,608.17462,24.680115};
+			id=33;
+			side="EMPTY";
+			vehicle="Land_fortified_nest_small_EP1";
+			skill=0.60000002;
+			text="bagshumv11";
+			init="this allowDamage false";
+		};
+		class Item3
+		{
+			position[]={23.59333,603.61981,9.9753418};
+			id=34;
+			side="EMPTY";
+			vehicle="Land_fortified_nest_small_EP1";
+			skill=0.60000002;
+			text="bagshumv12";
+			init="this allowDamage false";
+		};
+		class Item4
+		{
+			position[]={24.293045,113.54759,-2.6300049};
+			id=35;
+			side="EMPTY";
+			vehicle="Land_fortified_nest_small_EP1";
+			skill=0.60000002;
+			text="bagshumv13";
+			init="this allowDamage false";
+		};
+		class Item5
+		{
+			position[]={24.293045,599.08105,-15.234497};
+			id=36;
+			side="EMPTY";
+			vehicle="Land_fortified_nest_small_EP1";
+			skill=0.60000002;
+			text="bagshumv14";
+			init="this allowDamage false";
+		};
+		class Item6
+		{
+			position[]={-59.159859,103.2779,-32.505432};
+			id=38;
+			side="EMPTY";
+			vehicle="MASH_EP1";
+			skill=0.60000002;
+			text="fieldHospital";
+			init="this addEventHandler [""handleDamage"", {0}];";
+		};
+		class Item7
+		{
+			position[]={2.3782272,112.80198,-29.21637};
+			id=39;
+			side="EMPTY";
+			vehicle="M1130_CV_EP1";
+			skill=0.60000002;
+			text="MHQ";
+		};
+		class Item8
+		{
+			position[]={-70.69809,97.589134,20.12146};
+			id=40;
+			side="EMPTY";
+			vehicle="M1130_HQ_unfolded_Base_EP1";
+			skill=0.60000002;
+			text="HQ";
+			init="this allowDamage false";
+		};
+		class Item9
+		{
+			position[]={75.236176,116.92324,19.994812};
+			id=55;
+			side="EMPTY";
+			vehicle="Sr_border";
+			skill=0.60000002;
+			text="repairarea";
+			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +0.02]";
+		};
+		class Item10
+		{
+			position[]={10.279037,111.83453,-0.15625};
+			id=56;
+			side="EMPTY";
+			vehicle="FlagCarrierPOWMIA_EP1";
+			skill=0.60000002;
+			text="baseflag";
+			init="this allowDamage false";
+		};
+		class Item11
+		{
+			position[]={24.624949,115.23671,-24.688599};
+			id=57;
+			side="EMPTY";
+			vehicle="Land_fortified_nest_small_EP1";
+			skill=0.60000002;
+			text="bagshumv15";
+			init="this allowDamage false";
+		};
+		class Item12
+		{
+			position[]={24.293045,115.5665,-32.981567};
+			id=58;
+			side="EMPTY";
+			vehicle="Land_fortified_nest_small_EP1";
+			skill=0.60000002;
+			text="bagshumv16";
+			init="this allowDamage false";
+		};
+		class Item13
+		{
+			position[]={73.411697,567.51123,-76.20697};
+			id=59;
+			side="EMPTY";
+			vehicle="BAF_VehicleBox";
+			skill=0.60000002;
+			text="stuffbox";
+		};
+	};
+	class Markers
+	{
+		items=3;
+		class Item0
+		{
+			position[]={-499.20776,413.4437,761.74854};
+			name="USFLAG";
+			type="Faction_UNO_EP1";
+		};
+		class Item1
+		{
+			position[]={0,0,0};
+			name="respawn_west";
+			type="Empty";
+		};
+		class Item2
+		{
+			position[]={0.95320749,81.282928,-399.15479};
+			name="respawn_east";
+			type="Empty";
+			angle=93.227806;
+		};
+	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={-710.66772,360.0238,1149.5513};
+			activationBy="JULIET";
+			interruptable=1;
+			age="UNKNOWN";
+			text=" ";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"zargabad",
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"zargabad"
+	};
+	randomSeed=7738663;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"zargabad",
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"zargabad"
+	};
+	randomSeed=3605365;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"zargabad",
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"zargabad"
+	};
+	randomSeed=5244217;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};

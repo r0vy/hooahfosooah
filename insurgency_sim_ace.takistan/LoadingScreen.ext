@@ -1,0 +1,91 @@
+// ======================
+// Loading screen related
+// ======================
+#ifndef LOADSCREENTEXT
+#define LOADSCREEN "img\loading_CO.paa"
+#endif
+
+#ifndef LOADSCREENTEXT
+#define LOADSCREENTEXT "Loading..."
+#endif
+
+class RscLoadingText : RscText
+{ 
+  x =  SafezoneX+0.025; 
+  y = SafezoneY; 
+  w = SafezoneW*0.95; 
+  h = SafezoneH*0.075; 
+  sizeEx = 0.05; 
+  text = ""; 
+  colorText[] = { 1,1,0.8,1}; 
+  shadow = 2; 
+}; 
+
+class RscProgress
+{ 
+    idc = 104; 
+    type = 8; 
+    style = 0; 
+    shadow = 2; 
+    texture = "\ca\ui\data\loadscreen_progressbar_ca.paa"; 
+    colorFrame[] = { 0,0,0,0}; 
+    colorBar[] = { 1,1,1,1}; 
+    x =  (SafezoneX+(SafezoneW -SafezoneH*3/4)/2)+ (0.5/2/4)*3*SafezoneH; 
+    y = SafezoneY+SafezoneH*0.95; 
+    w =0.5* (((SafezoneW*3)/4)/SafezoneW)/(1/SafezoneH); 
+    h = 0.0261438; 
+}; 
+
+
+class RscLoadingBg : RscText
+{ 
+	x = SafeZoneXAbs; 
+	y = safezoneY; 
+	w = SafeZoneWAbs; 
+	h = safezoneH; 
+	text = ""; 
+	colorText[] = { 0,0,0,0}; 
+	colorBackground[] = { 0,0,0,1}; 
+}; 
+
+
+class RscLoadingPicture: RscPicture
+{ 
+ style = 48 + 0x800; // Keep aspect ratio
+  x =  SafezoneX; 
+  y = SafezoneY+SafezoneH*0.075; 
+  w = SafezoneW; 
+  h = SafezoneH*0.85; 
+  text = ""; 
+}; 
+class RscLoadScreenCustom
+{ 
+	idd = -1; 
+	duration = 10e10; 
+	fadein = 0; 
+	fadeout = 0; 
+	name = "Loading Screen"; 
+
+	class ControlsBackground
+	{ 
+		class Loading_BG : RscLoadingBg
+		{ 
+		}; 
+		class Loading_CE2 : RscLoadingPicture
+		{ 
+			text = LOADSCREEN; 
+		}; 
+	}; 
+	
+	class controls
+	{ 
+		class Title1 : RscLoadingText
+		{ 
+			text = LOADSCREENTEXT; 
+		}; 
+		class CA_Progress : RscProgress
+		{ 
+
+		}; 
+	}; 
+}; 

@@ -1,0 +1,361 @@
+showCompass   = 1; 
+showGPS       = 1; 
+showMap       = 1; 
+showWatch     = 1; 
+debriefing    = 1; 
+respawn       = 3; 
+respawnDelay  = 15; 
+respawnDialog = 1; 
+disabledAI    = 1; 
+
+class Header { gameType   = Coop; minPlayers = 1; maxPlayers = 14; }; 
+
+class Params {
+	class EmtpyLine1 {
+		title = ":: Game Settings";
+		values[]={0,0};
+		texts[]={ "",""};
+		default = 0;			
+	};
+	//ambientCivilians should remain first param
+	class ambientCivilians { 
+		title="    Ambient Civilians"; 
+		values[]={ 1,0 }; 
+		texts[]={ "Enabled","Disabled"}; 
+		default=1; 
+		code = ""; 
+	};
+	//ACRE On/Off
+	class Var_acre { 
+		title="    ACRE Radios"; 
+		values[]={1,0}; 
+		texts[]={ "Enabled","Disabled"}; 
+		default=0; 
+		code = ""; 
+	};
+	//Roofguns
+	class INS_Roofguns { 
+		title="    Guns on Roofs"; 
+		values[]={ 1,0 }; 
+		texts[]={ "Enabled","Disabled"}; 
+		default=1; 
+		code = ""; 
+	};
+	class aiSkill {
+		title="    Base AI Skill Level"; 
+		values[]={ 1,2,3,4,5,6,7,8,9,10 }; 
+		texts[]={ "0.1","0.2","0.3","0.4","0.5","0.6","0.7","0.8","0.9","1.0" }; 
+		default=1; 
+		code = ""; 
+	};
+	class maxAIPerPlayer {
+		title="    AI Numbers"; 
+		values[]={ 0,1,2,3,4,6,8 }; 
+		texts[]={ "Dynamic","25%","50%","75%","100%","150%","200%" }; 
+		default=6; 
+		code = ""; 
+	};
+	class eastRatio {
+		title="    OPFOR Ratio"; 
+		values[]={ 1,2,4,-1 }; 
+		texts[]={ "None","1:2","1:4","COOP only" }; 
+		default=2;
+		code = ""; 
+	};
+	class markersEnabled {
+		title="    Enable Insurgency Markers"; 
+		values[]={ 0,1 }; 
+		texts[]={ "False","True" }; 
+		default=1; 
+		code = ""; 
+	};
+	class cacheCount {
+		title="    Number of Ammo Caches"; 
+		values[]={ 1,2,3,4,5,6,7,8,9 }; 
+		texts[]={ "1","2","3","4","5","6","7","8","9" }; 
+		default=5; 
+		code = ""; 
+	};
+	class startLives { 	
+		title="    Number of Respawns"; 
+		values[]={ -1,0,5,10,20,50,100,200,350,500 }; 
+		texts[]={ "Infinite","0","5","10","20","50","100","200","350","500" }; 
+		default=-1; 
+		code = ""; 
+	};
+	class INS_dynamicRespawn {
+        title="    Player respawn delay";
+        values[]={1,30,60,120,240};
+        default=30;
+        texts[]={"Dynamic","30 Sec","1 Min","2 Min","4 Min"};
+    };
+	class playersNeeded { 	
+		title="    Players needed to clear a Square"; 
+		values[]={ 1,2,3 }; 
+		texts[]={ "1","2","3" }; 
+		default=2; 
+		code = ""; 
+	};
+	class eastVehicleNum { 	
+		title="    Number of OPFOR AI Vehicles"; 
+		values[]={ 1,2,3,4,5,6,7,8,9 }; 
+		texts[]={ "1","2","3","4","5","6","7","8","9" }; 
+		default=4; 
+		code = ""; 
+	};
+	class aiVehicleRespawnTime { 	
+		title="    Random Time to OPFOR AI Vehicle Respawn (+5min)"; 
+		values[]={ 600,900,1200,1800 }; 
+		texts[]={ "10 min","15 min","20 min","30 min" }; 
+		default=900;
+		code = ""; 
+	};
+	class heliRC { 	
+		title="    Remote-controlled Helicopter"; 
+		values[]={ 1,0 }; 
+		texts[]={ "Yes","No" }; 
+		default=0; 
+		code = ""; 
+	};
+	class a10Mode { 	
+		title="    A-10 CAS Mode"; 
+		values[]={ 0,1,2 }; 
+		texts[]={ "Disabled","AI","Player" }; 
+		default=1;
+		code = ""; 
+	};
+	class a10FlyTime { 	
+		title="    A-10 Flying Time (x2 on AI A-10)"; 
+		values[]={ 30,45,60,90,120 }; 
+		texts[]={ "30 seconds","45 seconds","60 seconds","90 seconds","120 seconds" }; 
+		default=90; 
+		code = ""; 
+	};
+	class mhqDeployTimer { 	
+		title="    HQ Re-deployment Timer"; 
+		values[]={ 0,1800,3600,7200,10800,14400,18000,-1 }; 
+		texts[]={ "Instant","30 minutes","60 minutes","120 minutes","180 minutes","240 minutes","300 minutes","Never"}; 
+		default=1800; 
+		code = ""; 
+	};
+	class hqProtectionRing { 	
+		title="    HQ Base Protection"; 
+		values[]={ -1,100,200,300,400 }; 
+		texts[]={ "None","100 meters","200 meters","300 meters","400 meters"}; 
+		default=300; 
+		code = ""; 
+	};
+	class EmtpyLineVehicles {
+		title = ":: Settings of Vehicles";
+		values[]={0,0};
+		texts[]={ "",""};
+		default = 0;
+	}
+	class INS_AdvanceType { 
+		title="    Type of Air"; 
+		values[]={ 1,2,3,4,5,6,7 }; 
+		texts[]={ "MH-6J Littlebird","UH-1Y Venom","CH-47F","Merlin HC3","Lynx Wildcat","MV-22","UH60M BlackHawk" }; 
+		default=3; 
+		code = ""; 
+	};
+	class INS_CarType1 { 
+		title="    First Setup of Cars"; 
+		values[]={ 1,2,3,4,5,6,7,8,9 }; 
+		texts[]={ "M1151 HMMWV 50cal",			
+		"Jackal GL",
+		"Jackal 50cal",
+		"HMMWV CROWS (M2)",
+		"Land Rover SF 50cal, GL",
+		"BAF Land Rover unarmed",
+		"Armored SUV minigun",
+		"SUV unarmed",
+		"BAF PMC SUV unarmed",
+				}; 
+			default=3; 
+			code = ""; 
+	};
+	class INS_CarType2 { 
+		title="    Second Setup of Cars"; 
+		values[]={ 1,2,3,4,5,6,7,8,9 }; 
+		texts[]={ "HMMWV m249, GL",
+		"Jackal GL",
+		"Jackal 50cal",
+		"HMMWV CROWS (M2)",
+		"Land Rover SF 50cal, GL",
+		"BAF Land Rover unarmed",
+		"Armored SUV minigun",
+		"SUV unarmed",
+		"BAF PMC SUV unarmed",	
+		 }; 
+		default=2; 
+		code = ""; 
+	};
+	class INS_CarType3 { 
+		title="    Third Setup of Cars"; 
+		values[]={ 1,2,3,4,5,6,7,8,9 }; 
+		texts[]={ "M1151 HMMWV 50cal",
+		"Jackal GL",
+		"Jackal 50cal",
+		"HMMWV CROWS (M2)",
+		"HMMWV (Ambulance)",
+		"HMMWV (Utility)",
+		"Repair truck",
+		"Land Rover SF 50cal, GL",
+		"BAF Land Rover unarmed",
+		 }; 
+		default=1; 
+		code = ""; 
+	};
+	class INS_CarType4 { 
+		title="    Fourth Setup of Cars"; 
+		values[]={ 1,2,3,4,5,6,7,8,9 }; 
+		texts[]={ "M1151 HMMWV 50cal",
+		"Jackal GL",
+		"Jackal 50cal",
+		"HMMWV CROWS (M2)",
+		"HMMWV (Ambulance)",
+		"HMMWV (Utility)",
+		"Repair truck",
+		"Land Rover SF 50cal, GL",
+		"BAF Land Rover unarmed",
+		 }; 
+		default=1; 
+		code = ""; 
+	};
+	class INS_CarType5 { 
+		title="    Fifth Setup of Cars"; 
+		values[]={ 1,2,3,4,5,6,7,8,9 }; 
+		texts[]={ "HMMWV m249, GL",
+		"Jackal GL",
+		"Jackal 50cal",
+		"HMMWV CROWS (M2)",
+		"HMMWV (Ambulance)",
+		"HMMWV",
+		"Repair truck",
+		"Land Rover SF 50cal, GL",
+		"BAF Land Rover unarmed",
+		 }; 
+		default=6; 
+		code = ""; 
+	};
+	class INS_CarType6 { 
+		title="    Sixth Setup of Cars"; 
+		values[]={ 1,2,3,4,5,6,7,8,9 }; 
+		texts[]={ "HMMWV m249, GL",
+		"Jackal GL",
+		"Jackal 50cal",
+		"HMMWV CROWS (M2)",
+		"HMMWV (Ambulance)",
+		"HMMWV (Utility)",
+		"Repair truck",
+		"Land Rover SF 50cal, GL",
+		"BAF Land Rover unarmed",
+		 }; 
+		default=7; 
+		code = ""; 
+	};
+	class INS_CarType7 { 
+		title="    Seventh Setup of Cars"; 
+		values[]={ 1,2,3,4,5,6,7,8,9 }; 
+		texts[]={ "HMMWV m249, GL",
+		"Jackal GL",
+		"Jackal 50cal",
+		"HMMWV CROWS (M2)",
+		"HMMWV (Ambulance)",
+		"HMMWV (Utility)",
+		"Repair truck",
+		"Land Rover SF 50cal, GL",
+		"BAF Land Rover unarmed",
+		 }; 
+		default=6; 
+		code = ""; 
+	};
+	class INS_ATVType { 
+		title="    Seventh Setup of Cars"; 
+		values[]={ 1,2,3,4,5,6,7,8,9,10 }; 
+		texts[]={ "ATV's",			
+		"HMMWV (Ambulance)",
+		"CZ Land Rover Unadrmed",
+		"Special Forces LADA",
+		"Motocycle",
+		"BAF Land Rover unarmed",
+		"Mountin Bike",
+		"SUV unarmed",
+		"BAF PMC SUV unarmed",	
+		"Pickup",
+			}; 
+		default=6; 
+		code = ""; 
+	};
+	class EmtpyLine2 {
+		title = ":: UI Settings";
+		values[]={0,0};
+		texts[]={ "",""};
+		default = 0;
+	};
+	class useroptions { 	
+		title="    Players can adjust Viewdistance and Grass"; 
+		values[]={ 0,1 }; 
+		texts[]={ "No","Yes" }; 
+		default=1; 
+		code = ""; 
+	};
+	class EmtpyLine3 {
+		title = ":: Time & Date Settings";
+		values[]={0,0};
+		texts[]={ "",""};
+		default = 0;			
+	};
+	class fixedTimeDate { 
+		title="    Fixed Time and Date or Random"; 
+		values[]={ 1,0 }; 
+		texts[]={ "Fixed Time and Date","Random Time and Date"}; 
+		default=1; 
+		code = ""; 
+	};
+	class Month { 	
+		title="    Month"; 
+		values[]={ 1,2,3,4,5,6,7,8,9,10,11,12}; 
+		texts[]={ "January","Febuary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"}; 
+		default=7; 
+		code = ""; 
+	}; 
+	class Day { 
+		title="    Day"; 
+		values[]={ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31}; 
+		texts[]={ "1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31"}; 
+		default=1; 
+		code = ""; 
+	}; 
+	class Hour { 
+		title="    Hour"; 
+		values[]={ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24}; 
+		texts[]={ "1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"}; 
+		default=12; 
+		code = ""; 
+	}; 
+	class Minute { 
+		title="    Minute"; 
+		values[]={ 00,15,30,45}; 
+		texts[]={ "00","15","30","45"}; 
+		default=00; 
+		code = ""; 
+	};
+}; 
+
+#include "bon_artillery\dialog\Common.hpp"
+#include "bon_artillery\dialog\Artillery.hpp"
+
+#include "common\resources\constants.hpp"
+#include "common\resources\types.hpp"
+#include "common\resources\dialogs.hpp"
+#include "common\resources\titles.hpp"
+#include "common\resources\sounds.hpp"
+
+#define LOADSCREEN "images\insurgency_sim_loading.jpg"
+#define LOADSCREENTEXT "Insurgency Sim 2.03 : Server & Mission info totalboffin.blogspot.com"
+#include "LoadingScreen.ext"
+
+loadScreen = LOADSCREEN; 
+onLoadMission = LOADSCREENTEXT; 
+onLoadMissionTime = false;

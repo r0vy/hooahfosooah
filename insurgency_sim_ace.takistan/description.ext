@@ -142,7 +142,7 @@ class Params {
 		title="    HQ Base Protection"; 
 		values[]={ -1,100,200,300,400 }; 
 		texts[]={ "None","100 meters","200 meters","300 meters","400 meters"}; 
-		default=300; 
+		default=200; 
 		code = ""; 
 	};
 	class EmtpyLineVehicles {

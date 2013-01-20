@@ -86,7 +86,7 @@ class Params {
 	class INS_dynamicRespawn {
         title="    Player respawn delay";
         values[]={1,30,60,120,240};
-        default=1;
+        default=0;
         texts[]={"Dynamic","30 Sec","1 Min","2 Min","4 Min"};
     };
 	class playersNeeded { 	

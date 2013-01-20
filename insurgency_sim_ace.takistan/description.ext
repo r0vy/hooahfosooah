@@ -4,7 +4,7 @@ showMap       = 1;
 showWatch     = 1; 
 debriefing    = 1; 
 respawn       = 3; 
-respawnDelay  = 15; 
+respawnDelay  = 0; 
 respawnDialog = 1; 
 disabledAI    = 1; 
 
@@ -59,7 +59,7 @@ class Params {
 		title="    OPFOR Ratio"; 
 		values[]={ 1,2,4,-1 }; 
 		texts[]={ "None","1:2","1:4","COOP only" }; 
-		default=2;
+		default=1;
 		code = ""; 
 	};
 	class markersEnabled {
@@ -86,14 +86,14 @@ class Params {
 	class INS_dynamicRespawn {
         title="    Player respawn delay";
         values[]={1,30,60,120,240};
-        default=30;
+        default=1;
         texts[]={"Dynamic","30 Sec","1 Min","2 Min","4 Min"};
     };
 	class playersNeeded { 	
 		title="    Players needed to clear a Square"; 
 		values[]={ 1,2,3 }; 
 		texts[]={ "1","2","3" }; 
-		default=2; 
+		default=1; 
 		code = ""; 
 	};
 	class eastVehicleNum { 	

@@ -198,9 +198,14 @@ addActions = {
 							}] call RE; 
 
 							} else {
-
+								
 							hint "No useful intelligence was found on this body.";
-					
+							sleep 1;
+							if(random 100 > 85) then {
+								hint "This insurgent fell on his IED, run!";
+								sleep 10;
+								_bodyIED = "ARTY_Sh_122_HE" createVehicle (getpos _body);
+							};
 						};
 				sleep 1;
 				hideBody _body;

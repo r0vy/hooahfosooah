@@ -66,7 +66,7 @@ if(typeOf X == MHQTYPE)then{"MHQ"}else{\
 							"Hitman141","Hitman142","Hitman143","Hitman144","Hitman145",\
 							"Hitman151","Hitman152","Hitman153","Hitman154","Hitman155",\
 							"Hitman161","Hitman162","Hitman163","Hitman164","Hitman165"]
-#define eastPlayerStrings   ["east1","east2","east3","east4"]
+#define eastPlayerStrings   ["east0","east1","east2","east3","east4","east5"]
 #define westAllClasses		(westSoldierClasses + westVehicleClasses)
 #define eastStationaryGuns	["KORD_high_UN_EP1","DSHKM_TK_INS_EP1","ZU23_TK_INS_EP1","AGS_TK_INS_EP1","SearchLight_TK_INS_EP1"]
 #define eastVclClasses		["BRDM2_TK_EP1","M113_TK_EP1","BTR60_TK_EP1","LandRover_MG_TK_INS_EP1",\

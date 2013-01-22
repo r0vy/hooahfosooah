@@ -3,7 +3,7 @@
 
 	
 
-		hint "You can now request to have your own set of persoanl loadouts from this box. Simply check totalboffin.blogspot.com to find out how.";
+		hint "Logon to the forums at www.twistedarmy.com/ and register for custom loadouts.";
 
 
 		',1,false,true,"",""]; 

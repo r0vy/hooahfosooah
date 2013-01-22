@@ -86,8 +86,8 @@ if isWest then {
 		_control ctrlSetText "Welcome " + name player + " to this server!";
 		_control = _hud displayCtrl 10003;
 		_control ctrlSetText "Check the Map -> Notes section for lots of information on how to get started..";
-		_control = _hud displayCtrl 10004;
-		_control ctrlSetText "WANT A CUSTOM SET OF LOADOUTS? : Check totalboffin.blogspot.com!";
+		//_control = _hud displayCtrl 10004;
+		//_control ctrlSetText "WANT A CUSTOM SET OF LOADOUTS? : Check totalboffin.blogspot.com!";
 		_control = _hud displayCtrl 10005;
 		_control ctrlSetText "Important information:";
 		_control = _hud displayCtrl 10006;

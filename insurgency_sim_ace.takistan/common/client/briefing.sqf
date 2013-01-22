@@ -12,7 +12,6 @@ Thanks to Swedge for the briefing contribution.<br/>
 Added Artillery Support from bon, Transport from PITN, CargoDrop from sxp2high. <br/>
 <br/>
 All other mods, side missions etc. by TotalBoffin<br/><br/>
-Check out totalboffin.blogspot.com for more details!<br/><br/>
 "
 ]
 ];

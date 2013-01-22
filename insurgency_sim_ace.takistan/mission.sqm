@@ -85,8 +85,8 @@ class Mission
 	randomSeed=8342719;
 	class Intel
 	{
-		briefingName="ACE Insurgency Sim 2.03 Takistan : totalboffin.blogspot.com";
-		briefingDescription="Version 2.03.14. Based on Insurgency By pogoman, Fireball, Kol9yN : Server/Mission info totalboffin.blogspot.com";
+		briefingName="-=Twisted=- Insurgency Sim Takistann";
+		briefingDescription="Based on Insurgency By pogoman, Fireball, Kol9yN, TotalBoffin";
 		resistanceEast=1;
 		startWeather=0.44375706;
 		forecastWeather=0.65771431;
@@ -3342,7 +3342,7 @@ class Mission
 		{
 			position[]={2789.0122,360.21573,-210.26764};
 			name="Server information:";
-			text="Find out more about this map at totalboffin.blogspot.com";
+			text="Based on Insurgency Sim by TotalBoffin.";
 			type="Faction_UNO_EP1";
 			colorName="ColorRed";
 		};

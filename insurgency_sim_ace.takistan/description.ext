@@ -4,7 +4,7 @@ showMap       = 1;
 showWatch     = 1; 
 debriefing    = 1; 
 respawn       = 3; 
-respawnDelay  = 0; 
+respawnDelay  = 5; 
 respawnDialog = 1; 
 disabledAI    = 1; 
 
@@ -86,7 +86,7 @@ class Params {
 	class INS_dynamicRespawn {
         title="    Player respawn delay";
         values[]={1,30,60,120,240};
-        default=0;
+        default=5;
         texts[]={"Dynamic","30 Sec","1 Min","2 Min","4 Min"};
     };
 	class playersNeeded { 	
@@ -171,7 +171,7 @@ class Params {
 		"SUV unarmed",
 		"BAF PMC SUV unarmed",
 				}; 
-			default=3; 
+			default=9; 
 			code = ""; 
 	};
 	class INS_CarType2 { 
@@ -284,7 +284,7 @@ class Params {
 		"BAF PMC SUV unarmed",	
 		"Pickup",
 			}; 
-		default=6; 
+		default=5; 
 		code = ""; 
 	};
 	class EmtpyLine2 {
@@ -310,7 +310,7 @@ class Params {
 		title="    Fixed Time and Date or Random"; 
 		values[]={ 1,0 }; 
 		texts[]={ "Fixed Time and Date","Random Time and Date"}; 
-		default=1; 
+		default=0; 
 		code = ""; 
 	};
 	class Month { 	
@@ -353,7 +353,7 @@ class Params {
 #include "common\resources\sounds.hpp"
 
 #define LOADSCREEN "images\insurgency_sim_loading.jpg"
-#define LOADSCREENTEXT "Insurgency Sim 2.03 : Server & Mission info totalboffin.blogspot.com"
+#define LOADSCREENTEXT "-=Twisted=- Insurgency Sim - based on Insurgency Sim by totalboffin"
 #include "LoadingScreen.ext"
 
 loadScreen = LOADSCREEN; 

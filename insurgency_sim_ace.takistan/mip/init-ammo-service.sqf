@@ -292,7 +292,7 @@ _crate addMagazineCargo ["ACE_40Rnd_B_46x30_MP7",75];
 _crate addMagazineCargo ["ACE_40Rnd_S_46x30_MP7",75];
 _crate addMagazineCargo ["ACE_5Rnd_86x70_T_L115A1",75];
 _crate addMagazineCargo ["ACE_5Rnd_127x108_T_KSVK",75];
-_crate addMagazineCargo ["ACE_5Rnd_25x59_HEDP_Barrett",75];
+//_crate addMagazineCargo ["ACE_5Rnd_25x59_HEDP_Barrett",75];
 _crate addMagazineCargo ["ACE_6Rnd_12Ga_Buck00",75];
 _crate addMagazineCargo ["ACE_6Rnd_12Ga_Slug",75];
 _crate addMagazineCargo ["ACE_8Rnd_12Ga_Buck00",75];

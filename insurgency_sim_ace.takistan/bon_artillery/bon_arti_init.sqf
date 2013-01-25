@@ -9,19 +9,19 @@ BON_ARTI_PATH = "bon_artillery\";
 HW_Arti_CallSign = "Chocolate Rain";
 
 // Number cannons
-HW_Arti_CannonNumber = 5;
+HW_Arti_CannonNumber = 4;
 
 // Number rounds per hour
-HW_arti_number_shells_per_hour = 100;
+HW_arti_number_shells_per_hour = 24;
 
 // element: [displayname,config type-entry]
 HW_arti_types = [["APC","ARTY_Sh_105_HE"],["Tank","ARTY_R_227mm_HE"],["WP","ACE_M34"],["Car","Sh_85_HE"],["Infantry","G_40mm_HE"],["Smoke - White","G_40mm_Smoke"],["Smoke - Red","G_40mm_SmokeRed"],["Illumination","F_40mm_White"]];
 
 // max. nr. shells each cannon can fire in one fire mission
-HW_arti_maxnrshells = 20;
+HW_arti_maxnrshells = 6;
 
 // element: [displayname,splashdown dispersion in meters]; LASER must have dispersion < 0 to work
-HW_arti_spreads = [["PRECISE",0],["TIGHT",25],["SCATTERED",50],["WIDE",100]];
+HW_arti_spreads = [["PRECISE",0],["TIGHT",25],["SCATTERED",50],["WIDE",125]];
 
 // if true each player can see his/her position when opening the map
 HW_arti_show_pos_on_map = true;

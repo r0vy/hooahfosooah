@@ -44,6 +44,13 @@ westVehicleChecker = {
 		baseflag setDir (getDir startLocation);
 	};
 	
+	_pos = startLocation modelToWorld [-3,-12,0];
+	_pos set [2,0];
+	if (acrebox distance _pos > 1) then { 
+		acrebox setPosATL _pos;
+		acrebox setDir (getDir startLocation);
+	};
+	
 	_pos = startLocation modelToWorld [8,0,0];
 	_pos set [2,0];
 	if (fieldHospital distance _pos > 1) then { 

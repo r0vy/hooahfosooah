@@ -44,7 +44,8 @@ class Mission
 		"castructures_e_misc_misc_interier",
 		"castructures_e_misc",
 		"castructures_e_housea_a_stationhouse",
-		"ace_c_men"
+		"ace_c_men",
+		"acre_sys_radio"
 	};
 	addOnsAuto[]=
 	{
@@ -80,6 +81,7 @@ class Mission
 		"castructures_e_misc_misc_interier",
 		"castructures_e_misc",
 		"castructures_e_housea_a_stationhouse",
+		"acre_sys_radio",
 		"takistan"
 	};
 	randomSeed=8342719;
@@ -107,7 +109,7 @@ class Mission
 				class Item0
 				{
 					position[]={0,0,0};
-					azimut=91.808899;
+					azimut=90;
 					special="NONE";
 					id=0;
 					side="WEST";
@@ -123,7 +125,7 @@ class Mission
 				class Item1
 				{
 					position[]={0,0,0};
-					azimut=91.808899;
+					azimut=90;
 					special="NONE";
 					id=1;
 					side="WEST";
@@ -188,7 +190,7 @@ class Mission
 				class Item0
 				{
 					position[]={0,0,0};
-					azimut=-21.4862;
+					azimut=90;
 					special="NONE";
 					id=4;
 					side="WEST";
@@ -204,7 +206,7 @@ class Mission
 				class Item1
 				{
 					position[]={0,0,0};
-					azimut=-21.4862;
+					azimut=90;
 					special="NONE";
 					id=5;
 					side="WEST";
@@ -219,7 +221,7 @@ class Mission
 				class Item2
 				{
 					position[]={0,0,0};
-					azimut=-21.4862;
+					azimut=90;
 					special="NONE";
 					id=6;
 					side="WEST";
@@ -233,7 +235,7 @@ class Mission
 				class Item3
 				{
 					position[]={0,0,0};
-					azimut=-21.4862;
+					azimut=90;
 					special="NONE";
 					id=7;
 					side="WEST";
@@ -247,6 +249,7 @@ class Mission
 				class Item4
 				{
 					position[]={0,0,0};
+					azimut=90;
 					special="NONE";
 					id=24;
 					side="WEST";
@@ -268,7 +271,7 @@ class Mission
 				class Item0
 				{
 					position[]={0,0,0};
-					azimut=-21.4443;
+					azimut=90;
 					special="NONE";
 					id=8;
 					side="WEST";
@@ -284,7 +287,7 @@ class Mission
 				class Item1
 				{
 					position[]={0,0,0};
-					azimut=-21.4443;
+					azimut=-90;
 					special="NONE";
 					id=9;
 					side="WEST";
@@ -298,7 +301,7 @@ class Mission
 				class Item2
 				{
 					position[]={0,0,0};
-					azimut=-21.4443;
+					azimut=90;
 					special="NONE";
 					id=10;
 					side="WEST";
@@ -311,7 +314,7 @@ class Mission
 				class Item3
 				{
 					position[]={0,0,0};
-					azimut=-21.4443;
+					azimut=90;
 					special="NONE";
 					id=11;
 					side="WEST";
@@ -324,6 +327,7 @@ class Mission
 				class Item4
 				{
 					position[]={0,0,0};
+					azimut=90;
 					special="NONE";
 					id=23;
 					side="WEST";
@@ -344,7 +348,7 @@ class Mission
 				class Item0
 				{
 					position[]={0,0,0};
-					azimut=-20.999001;
+					azimut=90;
 					special="NONE";
 					id=12;
 					side="WEST";
@@ -359,8 +363,8 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={-5.7802696,613.37927,6.4964294};
-					azimut=-20.999001;
+					position[]={0,0,0};
+					azimut=90;
 					special="NONE";
 					id=13;
 					side="WEST";
@@ -375,7 +379,7 @@ class Mission
 				class Item2
 				{
 					position[]={0,0,0};
-					azimut=-20.999001;
+					azimut=90;
 					special="NONE";
 					id=14;
 					side="WEST";
@@ -389,7 +393,7 @@ class Mission
 				class Item3
 				{
 					position[]={0,0,0};
-					azimut=-20.999001;
+					azimut=90;
 					special="NONE";
 					id=15;
 					side="WEST";
@@ -587,32 +591,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0;
-					position[]={-19.348721,521.84723,-351.78235};
-					azimut=93.227798;
+					position[]={-16,532,-313};
+					azimut=90;
 					special="NONE";
-					id=274;
-					side="EAST";
-					vehicle="TK_INS_Soldier_EP1";
-					player="PLAY CDG";
-					leader=1;
-					skill=1;
-					text="east0";
-				};
-			};
-		};
-		class Item12
-		{
-			side="EAST";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-20.100718,521.44171,-353.28839};
-					azimut=93.227806;
-					special="NONE";
-					id=277;
+					id=275;
 					side="EAST";
 					vehicle="TK_CIV_Takistani06_EP1";
 					player="PLAY CDG";
@@ -622,7 +604,7 @@ class Mission
 				};
 			};
 		};
-		class Item13
+		class Item12
 		{
 			side="EAST";
 			class Vehicles
@@ -644,7 +626,7 @@ class Mission
 				};
 			};
 		};
-		class Item14
+		class Item13
 		{
 			side="CIV";
 			class Vehicles
@@ -663,7 +645,7 @@ class Mission
 				};
 			};
 		};
-		class Item15
+		class Item14
 		{
 			side="LOGIC";
 			class Vehicles
@@ -681,7 +663,7 @@ class Mission
 				};
 			};
 		};
-		class Item16
+		class Item15
 		{
 			side="LOGIC";
 			class Vehicles
@@ -699,7 +681,7 @@ class Mission
 				};
 			};
 		};
-		class Item17
+		class Item16
 		{
 			side="LOGIC";
 			class Vehicles
@@ -717,7 +699,7 @@ class Mission
 				};
 			};
 		};
-		class Item18
+		class Item17
 		{
 			side="LOGIC";
 			class Vehicles
@@ -735,7 +717,7 @@ class Mission
 				};
 			};
 		};
-		class Item19
+		class Item18
 		{
 			side="LOGIC";
 			class Vehicles
@@ -753,7 +735,7 @@ class Mission
 				};
 			};
 		};
-		class Item20
+		class Item19
 		{
 			side="LOGIC";
 			class Vehicles
@@ -771,7 +753,7 @@ class Mission
 				};
 			};
 		};
-		class Item21
+		class Item20
 		{
 			side="LOGIC";
 			class Vehicles
@@ -789,7 +771,7 @@ class Mission
 				};
 			};
 		};
-		class Item22
+		class Item21
 		{
 			side="LOGIC";
 			class Vehicles
@@ -807,7 +789,7 @@ class Mission
 				};
 			};
 		};
-		class Item23
+		class Item22
 		{
 			side="LOGIC";
 			class Vehicles
@@ -825,7 +807,7 @@ class Mission
 				};
 			};
 		};
-		class Item24
+		class Item23
 		{
 			side="LOGIC";
 			class Vehicles
@@ -843,7 +825,7 @@ class Mission
 				};
 			};
 		};
-		class Item25
+		class Item24
 		{
 			side="LOGIC";
 			class Vehicles
@@ -861,7 +843,7 @@ class Mission
 				};
 			};
 		};
-		class Item26
+		class Item25
 		{
 			side="LOGIC";
 			class Vehicles
@@ -878,7 +860,7 @@ class Mission
 				};
 			};
 		};
-		class Item27
+		class Item26
 		{
 			side="LOGIC";
 			class Vehicles
@@ -895,7 +877,7 @@ class Mission
 				};
 			};
 		};
-		class Item28
+		class Item27
 		{
 			side="LOGIC";
 			class Vehicles
@@ -912,7 +894,7 @@ class Mission
 				};
 			};
 		};
-		class Item29
+		class Item28
 		{
 			side="LOGIC";
 			class Vehicles
@@ -929,7 +911,7 @@ class Mission
 				};
 			};
 		};
-		class Item30
+		class Item29
 		{
 			side="LOGIC";
 			class Vehicles
@@ -947,7 +929,7 @@ class Mission
 				};
 			};
 		};
-		class Item31
+		class Item30
 		{
 			side="LOGIC";
 			class Vehicles
@@ -965,7 +947,7 @@ class Mission
 				};
 			};
 		};
-		class Item32
+		class Item31
 		{
 			side="LOGIC";
 			class Vehicles
@@ -983,7 +965,7 @@ class Mission
 				};
 			};
 		};
-		class Item33
+		class Item32
 		{
 			side="LOGIC";
 			class Vehicles
@@ -1001,7 +983,7 @@ class Mission
 				};
 			};
 		};
-		class Item34
+		class Item33
 		{
 			side="LOGIC";
 			class Vehicles
@@ -1019,7 +1001,7 @@ class Mission
 				};
 			};
 		};
-		class Item35
+		class Item34
 		{
 			side="CIV";
 			class Vehicles
@@ -1028,7 +1010,7 @@ class Mission
 				class Item0
 				{
 					position[]={-594.22009,378.6348,1093.0129};
-					id=278;
+					id=276;
 					side="CIV";
 					vehicle="TK_CIV_Takistani01_EP1";
 					leader=1;
@@ -1038,7 +1020,7 @@ class Mission
 				};
 			};
 		};
-		class Item36
+		class Item35
 		{
 			side="CIV";
 			class Vehicles
@@ -1047,13 +1029,34 @@ class Mission
 				class Item0
 				{
 					position[]={-588.20471,381.56168,1095.2666};
-					id=279;
+					id=277;
 					side="CIV";
 					vehicle="TK_CIV_Takistani01_EP1";
 					leader=1;
 					skill=1;
 					text="pilotController_2";
 					init="this allowDamage false; doStop this";
+				};
+			};
+		};
+		class Item36
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-16,532,-313};
+					azimut=90;
+					special="NONE";
+					id=274;
+					side="EAST";
+					vehicle="TK_CIV_Takistani02_EP1";
+					player="PLAY CDG";
+					leader=1;
+					skill=1;
+					text="east1";
 				};
 			};
 		};
@@ -1065,17 +1068,15 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0;
-					position[]={-19.348764,521.69043,-352.53461};
-					azimut=93.227798;
+					position[]={-16,532,-313};
+					azimut=90;
 					special="NONE";
-					id=280;
+					id=279;
 					side="EAST";
-					vehicle="TK_INS_Soldier_EP1";
-					player="PLAY CDG";
+					vehicle="TK_CIV_Takistani02_EP1";
 					leader=1;
 					skill=1;
-					text="east4";
+					text="east0";
 				};
 			};
 		};
@@ -1087,17 +1088,15 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0;
-					position[]={-17.845112,521.85699,-352.53461};
-					azimut=93.227798;
+					position[]={-16,532,-313};
+					azimut=90;
 					special="NONE";
-					id=281;
+					id=280;
 					side="EAST";
-					vehicle="TK_INS_Soldier_EP1";
-					player="PLAY CDG";
+					vehicle="TK_CIV_Takistani02_EP1";
 					leader=1;
 					skill=1;
-					text="east5";
+					text="east3";
 				};
 			};
 		};
@@ -1109,16 +1108,15 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-21.604618,521.57251,-351.78235};
-					azimut=93.227798;
+					position[]={-16,532,-313};
+					azimut=90;
 					special="NONE";
-					id=275;
+					id=281;
 					side="EAST";
 					vehicle="TK_CIV_Takistani02_EP1";
-					player="PLAY CDG";
 					leader=1;
 					skill=1;
-					text="east1";
+					text="east4";
 				};
 			};
 		};
@@ -1130,24 +1128,22 @@ class Mission
 				items=1;
 				class Item0
 				{
-					presence=0;
-					position[]={-18.596851,522.24969,-350.27783};
-					azimut=93.227798;
+					position[]={-16,532,-313};
+					azimut=90;
 					special="NONE";
-					id=276;
+					id=282;
 					side="EAST";
-					vehicle="TK_INS_Soldier_EP1";
-					player="PLAY CDG";
+					vehicle="TK_CIV_Takistani02_EP1";
 					leader=1;
 					skill=1;
-					text="east3";
+					text="east5";
 				};
 			};
 		};
 	};
 	class Vehicles
 	{
-		items=241;
+		items=242;
 		class Item0
 		{
 			position[]={65.746765,588.85345,7.526886};
@@ -3314,6 +3310,17 @@ class Mission
 			vehicle="Misc_TyreHeapEP1";
 			skill=0.60000002;
 			text="map_center";
+		};
+		class Item241
+		{
+			position[]={10.39608,605.84479,-3.0090332};
+			special="NONE";
+			id=278;
+			side="EMPTY";
+			vehicle="ACRE_RadioBox";
+			leader=1;
+			skill=1;
+			text="acrebox";
 		};
 	};
 	class Markers

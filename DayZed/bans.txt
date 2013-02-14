@@ -925,9 +925,7 @@ a0863f85ec742329e27cfc0fa20145bc -1 finally someone making their own cheats
 8032fd2ddb93b93e02fdaf541eb376b7 -1 for the love of god just give up
 cdda40a871835d92273becaf4f9fec3e -1 Script kiddies get banned
 ffdf4cfaa25375f870b5da523c2253b9 -1 Tehee you got ban!
-33d599a66702ab2a1752a37a448d5384 -1 Starting to loose count on how many of you use this known 
-
-cheat
+33d599a66702ab2a1752a37a448d5384 -1 Starting to loose count on how many of you use this known cheat
 984fdf8e80ff94c36f158713fac94954 -1 zZzZzZzZzZ getting bored
 bfdea2da3314fe5ee8a613a3f9411fa6 -1 dumbest name ever
 403269f081137dbe14fdb12679ae51e0 -1 DUDE REALLY ANOTHER AMMO BOX SPAWNER
@@ -1043,9 +1041,9 @@ bec8bbcacdde44c830f63520461365a6 -1 Love Tonic
 46.9.129.65 -1 Love Tonic ps you mad bro?
 46.9.130.22 -1 Love Tonic ps you mad bro?
 77.21.136.129 -1 One of the many bans passed around
-######################
-PRIVATE BANS
-######################
+dayzdayzdayzdayzdayzdayzdaydayzd -1 #########################################
+dayzdayzdayzdayzdayzdayzdaydayzd -1 ########## PRIAVTE BANS BELOW ##########
+dayzdayzdayzdayzdayzdayzdaydayzd -1 #########################################
 69.255.254.56 -1 gnite
 385c3dd89ad17c9ed9f5c2fcaee92426 -1 gnite
 97.83.156.8 -1 gnite

@@ -1,3 +1,10 @@
+5c846c8e9d8ca7883e6dcfd21a92284b -1 spawning 
+385c3dd89ad17c9ed9f5c2fcaee92426 -1 spawning 
+d1cb5c0f40343ee09ac3c972367188ab -1 spawning
+1b0d20e0379ffe62b820a3258d96c1b1 -1 spawning
+74.161.17.178 -1 spawning
+82.7.132.68 -1 spawning
+69.255.254.56 -1 spawning
 banzbanzbanzbanzbanzbanzbanzbanz -1 #########################################
 banzbanzbanzbanzbanzbanzbanzbanz -1 #########################################
 banzbanzbanzbanzbanzbanzbanzbanz -1 BanZ Banfile v1.0.48
